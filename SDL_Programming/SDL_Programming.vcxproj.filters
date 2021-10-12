@@ -55,6 +55,9 @@
     <Filter Include="Source Files\Game Objects\Environment">
       <UniqueIdentifier>{56314efa-5af0-4b3c-ad2d-63a86beb7cdd}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Source Files\Game Objects\Environment\Tilemap">
+      <UniqueIdentifier>{86372bb2-81d3-473d-8465-b58b22b80fac}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="GameObject.cpp">
@@ -111,6 +114,9 @@
     <ClCompile Include="Stone.cpp">
       <Filter>Source Files\Game Objects\Environment</Filter>
     </ClCompile>
+    <ClCompile Include="..\..\39_tiling\39_tiling.cpp">
+      <Filter>Source Files\Game Objects\Environment\Tilemap</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Music.h">
@@ -164,5 +170,23 @@
     <ClInclude Include="Background.h">
       <Filter>Header Files\Game Objects\Environment</Filter>
     </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="..\..\39_tiling\dot.bmp">
+      <Filter>Source Files\Game Objects\Environment\Tilemap</Filter>
+    </Image>
+    <Image Include="..\..\39_tiling\tiles.png">
+      <Filter>Source Files\Game Objects\Environment\Tilemap</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\39_tiling\lazy.map">
+      <Filter>Source Files\Game Objects\Environment\Tilemap</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="..\..\39_tiling\readme.txt">
+      <Filter>Source Files\Game Objects\Environment\Tilemap</Filter>
+    </Text>
   </ItemGroup>
 </Project>
