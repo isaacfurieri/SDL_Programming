@@ -42,7 +42,7 @@ int main(int argc, char* argv[])
 		return 0;
 	}
 
-	Background background(screen);
+	//Background background(screen);
 
 	Player player(screen);
 	player.SetPosition(100, 200);
@@ -111,8 +111,8 @@ int main(int argc, char* argv[])
 		*/
 		//=======================================================================
 
-		background.Update(input);
-		background.Render(screen);
+		//background.Update(input);
+		//background.Render(screen);
 		
 		//=======================================================================
 		
@@ -186,7 +186,7 @@ int main(int argc, char* argv[])
 	Music::Shutdown();
 	Text::Shutdown();
 
-	background.~Background();
+	//background.~Background();
 	screen.Shutdown();
 
 	return 0;

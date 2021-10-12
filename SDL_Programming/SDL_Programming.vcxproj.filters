@@ -31,11 +31,32 @@
     <Filter Include="Source Files\Components">
       <UniqueIdentifier>{2ffedef6-a395-44b4-9872-bfc9a89eaeae}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Header Files\Game Objects\Character">
+      <UniqueIdentifier>{52168f42-2909-4319-869b-2dee51b7e9cf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Game Objects\Enemy">
+      <UniqueIdentifier>{8e084857-55f6-4c93-8b11-80aa06dde120}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Game Objects\Items">
+      <UniqueIdentifier>{51c06863-0e4d-4f23-b03f-51bf7d7814d7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Game Objects\Environment">
+      <UniqueIdentifier>{ff1a7362-5857-4230-9837-674bd7bb7f74}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Game Objects\Character">
+      <UniqueIdentifier>{a4762c22-2572-4357-b2a3-e132044d56fb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Game Objects\Enemy">
+      <UniqueIdentifier>{124818ae-8846-4ce8-8d6a-ba5f4f393d21}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Game Objects\Items">
+      <UniqueIdentifier>{df7db2e3-52b8-4e29-9acf-572c24b6214e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Game Objects\Environment">
+      <UniqueIdentifier>{56314efa-5af0-4b3c-ad2d-63a86beb7cdd}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Background.cpp">
-      <Filter>Source Files\Game Objects</Filter>
-    </ClCompile>
     <ClCompile Include="GameObject.cpp">
       <Filter>Source Files\Game Objects</Filter>
     </ClCompile>
@@ -54,9 +75,6 @@
     <ClCompile Include="Text.cpp">
       <Filter>Source Files\Components</Filter>
     </ClCompile>
-    <ClCompile Include="Player.cpp">
-      <Filter>Source Files\Game Objects</Filter>
-    </ClCompile>
     <ClCompile Include="Screen.cpp">
       <Filter>Source Files\Main</Filter>
     </ClCompile>
@@ -72,20 +90,26 @@
     <ClCompile Include="SphereCollider.cpp">
       <Filter>Source Files\Game Objects</Filter>
     </ClCompile>
-    <ClCompile Include="Spell.cpp">
-      <Filter>Source Files\Game Objects</Filter>
-    </ClCompile>
     <ClCompile Include="Sprite.cpp">
       <Filter>Source Files\Components</Filter>
     </ClCompile>
-    <ClCompile Include="Stone.cpp">
-      <Filter>Source Files\Game Objects</Filter>
+    <ClCompile Include="Background.cpp">
+      <Filter>Source Files\Game Objects\Environment</Filter>
     </ClCompile>
     <ClCompile Include="Coin.cpp">
-      <Filter>Source Files\Game Objects</Filter>
+      <Filter>Source Files\Game Objects\Items</Filter>
     </ClCompile>
     <ClCompile Include="Enemy.cpp">
-      <Filter>Source Files\Game Objects</Filter>
+      <Filter>Source Files\Game Objects\Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>Source Files\Game Objects\Character</Filter>
+    </ClCompile>
+    <ClCompile Include="Spell.cpp">
+      <Filter>Source Files\Game Objects\Character</Filter>
+    </ClCompile>
+    <ClCompile Include="Stone.cpp">
+      <Filter>Source Files\Game Objects\Environment</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -101,13 +125,7 @@
     <ClInclude Include="Vector2D.h">
       <Filter>Header Files\Components</Filter>
     </ClInclude>
-    <ClInclude Include="Background.h">
-      <Filter>Header Files\Game Objects</Filter>
-    </ClInclude>
     <ClInclude Include="GameObject.h">
-      <Filter>Header Files\Game Objects</Filter>
-    </ClInclude>
-    <ClInclude Include="Player.h">
       <Filter>Header Files\Game Objects</Filter>
     </ClInclude>
     <ClInclude Include="Input.h">
@@ -125,20 +143,26 @@
     <ClInclude Include="SphereCollider.h">
       <Filter>Header Files\Game Objects</Filter>
     </ClInclude>
-    <ClInclude Include="Spell.h">
-      <Filter>Header Files\Game Objects</Filter>
-    </ClInclude>
     <ClInclude Include="Sprite.h">
       <Filter>Header Files\Components</Filter>
     </ClInclude>
-    <ClInclude Include="Stone.h">
-      <Filter>Header Files\Game Objects</Filter>
+    <ClInclude Include="Player.h">
+      <Filter>Header Files\Game Objects\Character</Filter>
     </ClInclude>
-    <ClInclude Include="Coin.h">
-      <Filter>Header Files\Game Objects</Filter>
+    <ClInclude Include="Spell.h">
+      <Filter>Header Files\Game Objects\Character</Filter>
     </ClInclude>
     <ClInclude Include="Enemy.h">
-      <Filter>Header Files\Game Objects</Filter>
+      <Filter>Header Files\Game Objects\Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="Coin.h">
+      <Filter>Header Files\Game Objects\Items</Filter>
+    </ClInclude>
+    <ClInclude Include="Stone.h">
+      <Filter>Header Files\Game Objects\Environment</Filter>
+    </ClInclude>
+    <ClInclude Include="Background.h">
+      <Filter>Header Files\Game Objects\Environment</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
